@@ -1,0 +1,122 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../static/images/background_green.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #2e4600;
+    display: flex;
+    /* 横位置 */
+    justify-content: center;
+    /* 縦位置 */
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #2e4600;
+    font-size: 3em;
+    text-align: center;
+}
+
+p {
+    color: #182400;
+    font-size: 25px;
+    text-align: center;
+}
+
+span {
+    font-size: 16px;
+}
+
+.preview {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+.result-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%; /* 必要に応じて調整 */
+    height: auto;
+    border: 2px solid #486b00;
+    border-radius: 8px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    border: 3px solid #486b00;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 2px solid #486b00;
+    display: block;
+}
+
+
+label[for="fileInput"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+label[for="fileInput"]:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

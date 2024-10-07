@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>予測結果</title>
+    <link rel="stylesheet" href="../static/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>予測結果</h1>
+      <img class="result-image" src="data:image/png;base64,{{ img_data }}" alt="Uploaded Image">
+      <p>{{ name }}</p>
+      <p>{{ protein }}</p>
+      <p>{{ comment }}</p>
+      <a href="{{ url_for('index') }}">別の画像をアップロード</a>
+    </div>
+  </body>
+</html>
